@@ -1,0 +1,4 @@
+timezone:
+  config:
+    timezone: 'UTC'
+    hwclock_utc: true

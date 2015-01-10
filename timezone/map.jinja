@@ -1,0 +1,10 @@
+{% set timezone = salt['pillar.get'](
+    'timezone',
+    {
+        'config': {
+            'timezone': 'UTC',
+            'hwclock_utc': true
+        },
+    },
+    merge=True
+) %}
